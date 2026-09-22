@@ -1,0 +1,598 @@
+{
+  "users": [
+    {
+      "id": "8e0a4c05",
+      "role": "ADMIN",
+      "username": "admin",
+      "name": "Administrator",
+      "password": "9a8ef8e8f8cd06321b4d9b7009fdcf0b:a50422a58fceffaa17258f28ffbd2b90758342767456605c9856b51a18d3e09882e79d94f2af4b98175171f46242f40b6ddea0cb18338c81b65f09524fe34582",
+      "blocked": false,
+      "createdAt": 1790067650050
+    },
+    {
+      "id": "cb2a229e",
+      "role": "STUDENT",
+      "username": "aarav",
+      "name": "Aarav Patel",
+      "password": "07d4c52b6096961a53755755dbda58cc:0532eefc8cae3e8105154976e912045ebece677cca8f801f3b9604c7726c724da3de370950fc0821c0b46f3b82efcf07e42a7c336c1059107d731abcfde0a8a7",
+      "blocked": false,
+      "createdAt": 1790067650097
+    },
+    {
+      "id": "4dd95a25",
+      "role": "STUDENT",
+      "username": "isha",
+      "name": "Isha Shah",
+      "password": "2163ba80bf9f7275cb5c846337e528a1:bf5d5285989b238606d944d3b7dfba320c3010f628f0df5012ea2280f2565f10de5a229064c08fbdb1047c27af33519b92dbe0aa344a021f9334fe9dd5a5241c",
+      "blocked": false,
+      "createdAt": 1790067650142
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1c4455ae",
+      "name": "Physics"
+    },
+    {
+      "id": "66d17b0f",
+      "name": "Chemistry"
+    },
+    {
+      "id": "13113986",
+      "name": "Mathematics"
+    }
+  ],
+  "questions": [
+    {
+      "id": "7c78c91e",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "A body starts from rest with acceleration 2 m/s². Distance in 5 s?",
+      "options": [
+        {
+          "id": "a2175c84",
+          "label": "A",
+          "text": "10 m",
+          "isCorrect": false
+        },
+        {
+          "id": "9b1a6d65",
+          "label": "B",
+          "text": "25 m",
+          "isCorrect": true
+        },
+        {
+          "id": "c7e60f9c",
+          "label": "C",
+          "text": "50 m",
+          "isCorrect": false
+        },
+        {
+          "id": "964ed5de",
+          "label": "D",
+          "text": "5 m",
+          "isCorrect": false
+        }
+      ],
+      "numericAnswer": null,
+      "numericTolerance": 0.01,
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "s = ut + ½at² = 25 m"
+    },
+    {
+      "id": "5b9518c7",
+      "subjectId": "1c4455ae",
+      "type": "TRUE_FALSE",
+      "text": "Acceleration is a vector quantity.",
+      "options": [
+        {
+          "id": "ff2aa3a5",
+          "label": "A",
+          "text": "True",
+          "isCorrect": true
+        },
+        {
+          "id": "1fcab8d6",
+          "label": "B",
+          "text": "False",
+          "isCorrect": false
+        }
+      ],
+      "numericAnswer": null,
+      "numericTolerance": 0.01,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": ""
+    },
+    {
+      "id": "ef42c344",
+      "subjectId": "66d17b0f",
+      "type": "MULTIPLE_CORRECT",
+      "text": "Which of these molecules are polar?",
+      "options": [
+        {
+          "id": "c49cf847",
+          "label": "A",
+          "text": "H₂O",
+          "isCorrect": true
+        },
+        {
+          "id": "e22c7b77",
+          "label": "B",
+          "text": "CO₂",
+          "isCorrect": false
+        },
+        {
+          "id": "a8643f0e",
+          "label": "C",
+          "text": "NH₃",
+          "isCorrect": true
+        },
+        {
+          "id": "c4263604",
+          "label": "D",
+          "text": "CCl₄",
+          "isCorrect": false
+        }
+      ],
+      "numericAnswer": null,
+      "numericTolerance": 0.01,
+      "marks": 4,
+      "negativeMarks": 2,
+      "explanation": "H₂O and NH₃ have a net dipole moment.",
+      "allowPartialMarking": true
+    },
+    {
+      "id": "9f2f5b7c",
+      "subjectId": "13113986",
+      "type": "NUMERICAL",
+      "text": "If f(x) = 3x² + 2x, find f′(2).",
+      "options": [],
+      "numericAnswer": 14,
+      "numericTolerance": 0.01,
+      "marks": 4,
+      "negativeMarks": 0,
+      "explanation": "f′(x) = 6x + 2 → 14"
+    },
+    {
+      "id": "5715788a",
+      "subjectId": "13113986",
+      "type": "SINGLE_CORRECT",
+      "text": "Value of ∫2x dx is",
+      "options": [
+        {
+          "id": "31cd1730",
+          "label": "A",
+          "text": "x² + C",
+          "isCorrect": true
+        },
+        {
+          "id": "be3d0b33",
+          "label": "B",
+          "text": "2x² + C",
+          "isCorrect": false
+        },
+        {
+          "id": "55c04e62",
+          "label": "C",
+          "text": "x + C",
+          "isCorrect": false
+        },
+        {
+          "id": "b0f027c9",
+          "label": "D",
+          "text": "2 + C",
+          "isCorrect": false
+        }
+      ],
+      "numericAnswer": null,
+      "numericTolerance": 0.01,
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": ""
+    },
+    {
+      "id": "c6c9f8ee",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "What does IoT stand for?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "da0f7fbc",
+          "label": "A",
+          "text": "Internet of Technology",
+          "isCorrect": false
+        },
+        {
+          "id": "6499746e",
+          "label": "B",
+          "text": "Internet of Things",
+          "isCorrect": true
+        },
+        {
+          "id": "035031bb",
+          "label": "C",
+          "text": "Integration of Things",
+          "isCorrect": false
+        },
+        {
+          "id": "cebc5f56",
+          "label": "D",
+          "text": "Intelligence of Technology",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "e643ebf4",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "Which device is commonly used to sense temperature in an IoT system?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "51a9a45a",
+          "label": "A",
+          "text": "Temperature sensor",
+          "isCorrect": true
+        },
+        {
+          "id": "46ebbb32",
+          "label": "B",
+          "text": "Speaker",
+          "isCorrect": false
+        },
+        {
+          "id": "de49fbd1",
+          "label": "C",
+          "text": "Printer",
+          "isCorrect": false
+        },
+        {
+          "id": "b030b89e",
+          "label": "D",
+          "text": "Keyboard",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "66103c3c",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "Which of these is an example of an IoT device?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "442fd8b0",
+          "label": "A",
+          "text": "Smartwatch",
+          "isCorrect": true
+        },
+        {
+          "id": "a81cdc94",
+          "label": "B",
+          "text": "Wooden chair",
+          "isCorrect": false
+        },
+        {
+          "id": "0670cd89",
+          "label": "C",
+          "text": "Notebook",
+          "isCorrect": false
+        },
+        {
+          "id": "e7c31d52",
+          "label": "D",
+          "text": "Table",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "0e97cfd1",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "Which protocol is commonly used for IoT messaging?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "f9c163cb",
+          "label": "A",
+          "text": "MQTT",
+          "isCorrect": true
+        },
+        {
+          "id": "a59db553",
+          "label": "B",
+          "text": "FTP",
+          "isCorrect": false
+        },
+        {
+          "id": "96748375",
+          "label": "C",
+          "text": "SMTP",
+          "isCorrect": false
+        },
+        {
+          "id": "faa129e4",
+          "label": "D",
+          "text": "POP3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "73dd8c6f",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "What is the main function of a sensor in IoT?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "e10c5200",
+          "label": "A",
+          "text": "To collect data",
+          "isCorrect": true
+        },
+        {
+          "id": "4e1c1dd2",
+          "label": "B",
+          "text": "To print documents",
+          "isCorrect": false
+        },
+        {
+          "id": "2e4d3746",
+          "label": "C",
+          "text": "To display videos",
+          "isCorrect": false
+        },
+        {
+          "id": "9006685f",
+          "label": "D",
+          "text": "To store files",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "f05f4ebd",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "Which technology is commonly used for short-range wireless communication in IoT?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "57e0895c",
+          "label": "A",
+          "text": "Bluetooth",
+          "isCorrect": true
+        },
+        {
+          "id": "e127d9f6",
+          "label": "B",
+          "text": "HDMI",
+          "isCorrect": false
+        },
+        {
+          "id": "75120250",
+          "label": "C",
+          "text": "VGA",
+          "isCorrect": false
+        },
+        {
+          "id": "35a8b3f3",
+          "label": "D",
+          "text": "SATA",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "b5b90143",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "What is an actuator in an IoT system?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "defc9c7c",
+          "label": "A",
+          "text": "A device that performs an action",
+          "isCorrect": true
+        },
+        {
+          "id": "d0ef3813",
+          "label": "B",
+          "text": "A device used only for storage",
+          "isCorrect": false
+        },
+        {
+          "id": "849421be",
+          "label": "C",
+          "text": "A programming language",
+          "isCorrect": false
+        },
+        {
+          "id": "2d75baeb",
+          "label": "D",
+          "text": "A database",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "ccc75182",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "Which of these is an important concern in IoT?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "7b42ca11",
+          "label": "A",
+          "text": "Security",
+          "isCorrect": true
+        },
+        {
+          "id": "63c716c6",
+          "label": "B",
+          "text": "Screen size",
+          "isCorrect": false
+        },
+        {
+          "id": "31fff05f",
+          "label": "C",
+          "text": "Keyboard color",
+          "isCorrect": false
+        },
+        {
+          "id": "ce5e112b",
+          "label": "D",
+          "text": "Paper size",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "c8b14920",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "What does RFID stand for?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "fc471e89",
+          "label": "A",
+          "text": "Radio Frequency Identification",
+          "isCorrect": true
+        },
+        {
+          "id": "f2ee41c1",
+          "label": "B",
+          "text": "Remote File Identification",
+          "isCorrect": false
+        },
+        {
+          "id": "fa3ea069",
+          "label": "C",
+          "text": "Radio File Internet Device",
+          "isCorrect": false
+        },
+        {
+          "id": "2fcf3a71",
+          "label": "D",
+          "text": "Random Frequency Identification",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "d14af91e",
+      "subjectId": "1c4455ae",
+      "type": "SINGLE_CORRECT",
+      "text": "Which of the following is a benefit of IoT?",
+      "marks": 4,
+      "negativeMarks": 1,
+      "explanation": "",
+      "allowPartialMarking": false,
+      "numericAnswer": null,
+      "numericTolerance": 0,
+      "options": [
+        {
+          "id": "7c397135",
+          "label": "A",
+          "text": "Real-time monitoring",
+          "isCorrect": true
+        },
+        {
+          "id": "286b8a39",
+          "label": "B",
+          "text": "Increased manual work",
+          "isCorrect": false
+        },
+        {
+          "id": "ba10d60e",
+          "label": "C",
+          "text": "No connectivity",
+          "isCorrect": false
+        },
+        {
+          "id": "aa3e3d2a",
+          "label": "D",
+          "text": "No data collection",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "exams": [
+    {
+      "id": "fabf8dd0",
+      "title": "Sample Mock Test",
+      "durationMinutes": 15,
+      "questionIds": [
+        "7c78c91e",
+        "5b9518c7",
+        "ef42c344",
+        "9f2f5b7c",
+        "5715788a"
+      ],
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "negativeMarking": true,
+      "published": true,
+      "assignedUserIds": [],
+      "showResultToStudent": true,
+      "createdAt": 1790067650142
+    }
+  ],
+  "attempts": []
+}
